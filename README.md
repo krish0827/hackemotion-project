@@ -1,36 +1,47 @@
-Emotion Detection Using Text:
+TextTune
 
-This is a  web application that utilizes a Hugging Face model to detect emotions from user-provided text. Based on the detected emotion, the app displays a mood-enhancing message to improve the user's emotional well-being.
+Basic Details
+Team Name: Vocal
 
-Features:
+Team Members
+- Member 1: Krishnaja T N- ASIET
+- Member 2: Arrchitha Kesavadas- ASIET
 
-Emotion Detection: The app uses a pre-trained Hugging Face model (j-hartmann/emotion-english-distilroberta-base) to classify the emotion behind the input text.
-Mood Enhancement: Displays a motivational message based on the detected emotion to help uplift the user’s mood.
+Hosted Project Link
+https://github.com/krish0827/hackemotion-project
 
-Installation:
+Project Description
+This Emotion Detection Web Application leverages Natural Language Processing (NLP) to analyze and classify the emotional tone of user-provided text. Using a pre-trained model from Hugging Face's transformers library, the app identifies emotions like anger, joy, sadness, fear, surprise, disgust, and neutral. When users submit their text, the app processes it and provides a personalized mood-enhancing message based on the detected emotion.The goal of this project is to provide users with a tool for understanding their emotional state and offering supportive messages to improve their mood.
 
+ The Problem statement
+ 
+Many people find it difficult to express or understand their emotions, especially through text. Misunderstandings and lack of emotional awareness can lead to communication challenges. Our project aims to bridge this gap by detecting emotions from user-submitted text, offering valuable insights into feelings, and promoting emotional awareness and well-being.
 
-Set up a Python environment (optional but recommended):
-python -m venv venv
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+The Solution
 
-Install the required Python libraries:
-pip install transformers flask  # Flask is optional for serving API
+We use a pre-trained Hugging Face model for emotion detection to analyze the text input from users. The application classifies the emotion expressed in the text, such as joy, anger, sadness, or fear. Based on the detected emotion, the app then provides personalized, positive feedback to help users understand their emotions better and offer emotional support.
 
-The requirements.txt file should include the following dependencies:
+Technical Details
+Technologies/Components Used
+For Software:
+Technologies:Emotion Detection using Natural Language Processing (NLP).
+Libraries:Transformers (Hugging Face): Library for using pre-trained models for emotion classification.
+Languages:
+Python: Used for backend processing and integrating the emotion detection model.
+HTML: For creating the structure of the web application.
+CSS: For styling and enhancing the appearance of the webpage.
 
-transformers==4.9.2
-flask==2.0.1  # Optional if you want to serve the app via Flask
-Start the Python backend script (app.py) to load the Hugging Face model and handle API requests:
-python app.py
+ Installation
+Python: Make sure you have Python installed. If you don’t have it, you can download it from python.org.
+Install Python Libraries: You need to install the following libraries to run your project.
 
-Open index.html in your browser to interact with the app. The frontend is built using HTML, CSS, and JavaScript.
+pip install transformers
+pip install -r requirements.txt
+verify installation:
+import flask
+import transformers
 
-How It Works
-
-The user is presented with a text input field on the web page.
-After submitting the text, the app uses the Hugging Face emotion classification model to analyze the emotion in the input text.
-A relevant mood-enhancing message is displayed based on the detected emotion.
-
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+ Project Documentation
+ 
+Project demo:
+drive link: https://drive.google.com/drive/folders/124jSYlyHu99fZYXWmS8-jRmpOPyceFVD
