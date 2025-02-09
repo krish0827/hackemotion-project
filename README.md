@@ -9,9 +9,6 @@ Mood Enhancement: Displays a motivational message based on the detected emotion 
 
 Installation:
 
-Clone this repository to your local machine:
-git clone https://github.com/yourusername/emotion-detection-web.git
-cd emotion-detection-web
 
 Set up a Python environment (optional but recommended):
 python -m venv venv
