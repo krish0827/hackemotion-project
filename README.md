@@ -36,9 +36,13 @@ Python: Make sure you have Python installed. If you don’t have it, you can dow
 Install Python Libraries: You need to install the following libraries to run your project.
 
 pip install transformers
+
 pip install -r requirements.txt
+
 verify installation:
+
 import flask
+
 import transformers
 
  Project Documentation
