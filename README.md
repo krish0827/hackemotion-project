@@ -1,11 +1,13 @@
-Emotion Detection Using Text
+Emotion Detection Using Text:
+
 This is a  web application that utilizes a Hugging Face model to detect emotions from user-provided text. Based on the detected emotion, the app displays a mood-enhancing message to improve the user's emotional well-being.
 
-Features
+Features:
+
 Emotion Detection: The app uses a pre-trained Hugging Face model (j-hartmann/emotion-english-distilroberta-base) to classify the emotion behind the input text.
 Mood Enhancement: Displays a motivational message based on the detected emotion to help uplift the user’s mood.
 
-Installation
+Installation:
 
 Clone this repository to your local machine:
 git clone https://github.com/yourusername/emotion-detection-web.git
